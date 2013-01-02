@@ -1,5 +1,6 @@
 % -*- erlang -*-
 -module(iterator).
+-export([iterate/2]).
 
 -ifdef(TEST).
 -include_lib("eunit/include/eunit.hrl").
